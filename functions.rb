@@ -1,8 +1,14 @@
 # Return a reversed copy of the array
 
+
 def reverse(an_array)
-# code goes here
+  reversed = Array.new(an_array.count)
+  array.each_with_index do |item, index|
+    reversed[-(index + 1)] = item
+  end
+  reversed
 end
+
 
 
 
