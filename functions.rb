@@ -3,7 +3,7 @@
 
 def reverse(an_array)
   reversed = Array.new(an_array.count)
-  array.each_with_index do |item, index|
+  an_array.each_with_index do |item, index|
     reversed[-(index + 1)] = item
   end
   reversed
