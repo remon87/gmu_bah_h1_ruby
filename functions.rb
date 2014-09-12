@@ -17,7 +17,12 @@ end
 # For Example, histogram('Hello') return {'h'=>1, 'e'=>1, '1'=>2, 'o'=>1}
 
 def histogram(a_string)
-# code goes here2
+a_string.downcase!
+histogram = a_string.each_with_index do |item, hash|
+hash[item] += 1
+end
+histogram
+
 end
 
 
