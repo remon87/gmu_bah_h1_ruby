@@ -34,7 +34,9 @@ end
 
 def sum_only_number(an_array)
 an_array.is_a?(integer)
+do
 an_array.inject(0) { |sum, an_array| sum+an_array }
+end
 
 end
 
