@@ -33,7 +33,9 @@ end
 # (Hint: the is_a? method might be useful here)
 
 def sum_only_number(an_array)
-# Code goes here3
+an_array.is_a?(integer)
+an_array.inject(0) { |sum, an_array| sum+an_array }
+
 end
 
 # For i from 1 to 100, return an array.
