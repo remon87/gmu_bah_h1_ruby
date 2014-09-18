@@ -33,7 +33,8 @@ end
 # (Hint: the is_a? method might be useful here)
 
 def sum_only_number(an_array)
-an_array.is_a?(integer)
+
+if an_array.is_a?(numeric)
 do
 an_array.inject(0) { |sum, an_array| sum+an_array }
 end
