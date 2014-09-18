@@ -50,7 +50,18 @@ end
 # For example [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', ...,]
 
 def fizzbuzz
-# Code goes here4
+array[1]
+i = 1
+while i < 101
+do 
+ if i%3 == 0 and i%5 == 0 : print "FizzBuzz" + str(i)
+ elsif i%3 == 0 : print "Fizz" + str(i)
+ elsif i%5 == 0 : print "Buzz" + str(i)
+ else print i
+  
+  i += 1
+end  
+
 end
 
 # Uncomment each of these to test
