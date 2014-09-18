@@ -8,6 +8,7 @@
 # (hint: the Time.now method returns an instance of Time)
 
 Class Bookmark
+
 attr_reader :last_visited
 
   def initializer(url, title)
@@ -19,8 +20,6 @@ attr_reader :last_visited
   def visit(last_visited)
     last_visited = Time.now
   end
-  
-  
   
   
 end
